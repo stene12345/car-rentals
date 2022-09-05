@@ -9,6 +9,10 @@ phases:
   post_build:
     commands:
       - echo Build completed successfully
+  artifacts:
+  files:
+    - target/car-rentals*/*
+  discard-paths: yes
 
 cache:
   paths:
